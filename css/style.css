@@ -1,0 +1,189 @@
+*{
+    margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+header{
+    display: flex;
+    align-items: center; 
+  justify-content: space-between; 
+  height: 80px; 
+  padding: 0 20px;
+  background-color: #a437df; 
+    
+    nav{
+        display: flex;
+        float: right;        
+        gap: 20px;
+    ul{
+        list-style: none;
+
+        li{
+            display: inline-block;
+            font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            text-transform: uppercase;
+            margin: 15px;
+
+            a{
+                color: rgb(0, 0, 0);
+                text-decoration: none;
+                transition: 0.5s all;
+                border-radius: 15px;
+                background-color: #f9c25e;
+                padding: 10px;
+                
+            }
+
+
+            a:hover{
+                color: rgb(255, 0, 0);
+            }
+
+        }
+    }
+}
+}
+
+body{
+    background-color: rgb(0, 0, 0);
+    color: #a437df;
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+
+.footer{
+    text-align: center;
+    background-color: #a437df;
+    color: #fff;
+    padding: 30px 0;
+}
+
+main{
+    width: 100%;
+    margin: 0;
+
+    .tabela{
+        grid-template-columns: 50% 50%;
+        text-align: center;
+
+
+        .coluna{
+            text-align: center;
+
+        }
+        p,
+        h1{
+            margin: 30px;
+            font-size:  30px;
+
+
+        }
+        h1{
+            font-size:  50px;
+
+        }
+        
+    }
+
+    
+
+   
+}
+
+.sobre{
+    display: flex;
+    padding-inline-end: 10px;
+    
+    p{
+        width: 500px;
+        text-align: left;
+        padding: 50px;
+        font-size: 25px;
+        line-height: 2;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        
+    }
+    .col{
+        text-align: center;
+        flex: 2;
+
+        img{
+            width: 450px;
+            padding-right: 100px;
+            margin-right: 100px;
+            border-radius: 100px;
+            box-shadow: 20px 20px 20px #a437df;
+
+        }
+
+        
+    }
+
+    
+}
+
+.sobrejogo{
+
+
+    h1{
+        text-align: center;
+        margin-top: 200px;
+        border-radius: 10px;
+        
+    }
+
+    p{
+        font-size: 30px;
+        max-width: 900px;     
+        margin: 0 auto;
+        margin-top: 30px;
+        text-align: center;    
+        line-height: 1.6;      
+        padding: 20px;     
+    }
+}
+
+
+footer{
+    width: 100%;
+    margin-top:  45px    ;
+    padding: 50px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    background-color: white;
+}
+
+.jogar{
+    padding: 10px 30px;
+        background-color: #ff0000;
+        border: 0;
+        border-radius: 30px;
+        cursor: pointer;
+
+    
+
+}   
+
+.sobrejogo{
+    h1{
+        padding: 10px 30px;
+        background-color: #f9c25e;
+        font-weight: 600;
+        border: 0;
+        border-radius: 30px;
+        cursor: pointer;
+        transition: .2s;
+
+    }
+}
+
+a.jogar:hover{
+    color: white;
+}
+
+p.sobrejogo{
+    padding: 10px;
+}
+

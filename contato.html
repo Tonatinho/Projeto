@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The age of Magic</title>
+    <link rel="stylesheet" href="contato.css">
+    <link href="warlock-clipart-wizard-holding-fire-in-his-hand-cartoon-vector_571869_wh860-removebg-preview.png"
+        rel="shortcut icon">
+</head>
+<body>
+
+    <header>
+        <div class="interface">
+            <div class="logotipo">
+                    <img src="logoinicio.png" alt="Logo do jogo">
+            </div>
+        </div>
+        <nav>
+            <ul>
+                <li>
+                    <a href="index.html" title="home">Home</a>
+                </li>
+                
+                <li>
+                    <a href="index2.html" title="galeria de fotos">Galeria de fotos</a>
+                </li>
+                <li>
+                    <a href="" title="contato" class="contato">Contato</a>
+                </li>
+                <li>
+                    <a href="meujogo.html" title="jogar" class="jogar">Jogar</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+        
+
+
+    <h1>Formulário para cadastro</h1>
+
+    <div class="container">
+        <form id="form">
+            <label>Nome:</label>
+            <input type="text" id="nome">
+            <label>E-mail:</label>
+            <input type="text" id="email">
+            <label>Telefone:</label>
+            <input type="text" id="telefone">
+            <button type="button" id="botao">Enviar </button>
+        </form>
+    </div>
+        <script>
+            document.getElementById('botao').onclick = function() {
+                var nome = document.getElementById('nome').value;
+                var email = document.getElementById('email').value;
+                var telefone = document.getElementById('telefone').value;
+
+                if (nome =="" && email =="" && telefone =="") {
+                    alert('Por favor, preencha todos os campos.');
+                } else {
+                    if(nome ==""){
+                        alert('Por favor, preencha o campo nome.');
+                    } else if(email ==""){
+                        alert('Por favor, preencha o campo e-mail.');
+                    } else if(telefone ==""){
+                        alert('Por favor, preencha o campo telefone.');
+                    } else {
+                        alert('Formulário enviado com sucesso!');
+                        document.getElementById('form').reset();
+                    }
+                }
+            };
+        </script>
+
+<h1>Entre em Contato</h1>
+<div class="contact-container">
+  <a class="contact-link" href="https://www.instagram.com/tonato_gustavo/" target="_blank">Instagram</a>
+  <a class="contact-link" href="https://wa.me/5544999900933" target="_blank">WhatsApp</a>
+  <a class="contact-link" href="https://www.linkedin.com/in/GustavoTonato" target="_blank">LinkedIn</a>
+  <a class="contact-link" href="mailto:gustavotonato9@gmail.com">E-mail</a>
+</div>
+
+
+</body>
+</html>

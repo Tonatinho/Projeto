@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+}
+header{
+    display: flex;
+    align-items: center; 
+  justify-content: space-between; 
+  height: 80px; 
+  padding: 0 20px;
+  background-color: #a437df; 
+    
+    nav{
+        display: flex;
+        float: right;        
+        gap: 20px;
+    ul{
+        list-style: none;
+
+        li{
+            display: inline-block;
+            font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            text-transform: uppercase;
+            margin: 15px;
+
+            a{
+                color: rgb(0, 0, 0);
+                text-decoration: none;
+                transition: 0.5s all;
+                border-radius: 15px;
+                background-color: #f9c25e;
+                padding: 10px;
+                
+            }
+
+
+            a:hover{
+                color: rgb(255, 0, 0);
+            }
+
+        }
+    }
+}
+}
+
+.jogar{
+    padding: 10px 30px;
+        background-color: #ff0000;
+        border: 0;
+        border-radius: 30px;
+        cursor: pointer;
+
+    
+
+}
+
+a.jogar:hover{
+    color: white;
+}
+
+h1{
+    text-align: center;
+    padding: 20px;
+    color: #f9c25e;
+}
+
+/* Centralizar na tela inteira */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+  }
+  
+  #form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 25px;
+    border: 2px solid #a437df; 
+    border-radius: 16px;
+    box-shadow: 0 8px 24px rgba(0, 123, 255, 0.15); 
+    max-width: 400px;
+    width: 100%;
+    background-color: #fefefe;
+    transition: border-color 0.3s, box-shadow 0.3s;
+  }
+  
+  #form:hover {
+    border-color: #a437df;
+    box-shadow: 0 10px 28px rgba(0, 86, 179, 0.25);
+  }
+  
+  
+  #form label {
+    font-weight: bold;
+    color: #333;
+    margin-top: 10px;
+  }
+  
+  #form input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 14px;
+    transition: 0.3s ease;
+  }
+  
+  #form input:focus {
+    border-color: #a437df;
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.2);
+  }
+  
+  #botao {
+    margin-top: 15px;
+    padding: 12px;
+    background-color: #a437df;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  #botao:hover {
+    background-color: #6c1b98;
+    transform: scale(1.03);
+  }
+  
+  body{
+    background-color:black ;
+  }
+
+  .contact-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+  }
+  
+  .contact-link {
+    text-decoration: none;
+    color: white;
+    background-color: #333;
+    padding: 12px 20px;
+    border-radius: 8px;
+    width: 200px;
+    text-align: center;
+    transition: background-color 0.3s;
+  }
+  
+  .contact-link:hover {
+    background-color: #555;
+  }
+
+  
