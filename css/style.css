@@ -187,3 +187,61 @@ p.sobrejogo{
     padding: 10px;
 }
 
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+        height: auto;
+    }
+
+    header nav {
+        flex-direction: column;
+        width: 100%;
+        align-items: flex-start;
+        padding: 10px 0;
+    }
+
+    header nav ul {
+        width: 100%;
+        padding-left: 0;
+    }
+
+    header nav ul li {
+        margin: 10px 0;
+    }
+
+    .sobre {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .sobre p {
+        width: 90%;
+        padding: 20px;
+        font-size: 18px;
+    }
+
+    .sobre .col img {
+        width: 80%;
+        padding: 0;
+        margin: 20px auto;
+    }
+
+    main .tabela {
+        display: block;
+    }
+
+    main .tabela .coluna {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .sobrejogo p {
+        font-size: 18px;
+        padding: 15px;
+    }
+
+    .sobrejogo h1 {
+        font-size: 24px;
+    }
+}
