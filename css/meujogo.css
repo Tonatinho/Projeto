@@ -99,3 +99,42 @@ a.jogar:hover{
     color: white;
 
 }
+
+@media (max-width: 768px) {
+    .grid {
+        grid-template-columns: 1fr; /* Empilha as imagens */
+        gap: 15px;
+    }
+
+    .col {
+        width: 90%; /* Ocupa quase toda a tela */
+    }
+
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+        height: auto;
+    }
+
+    header nav {
+        flex-direction: column;
+        width: 100%;
+        align-items: flex-start;
+        padding: 10px 0;
+    }
+
+    header nav ul {
+        width: 100%;
+        padding-left: 0;
+    }
+
+    header nav ul li {
+        margin: 10px 0;
+    }
+
+    footer {
+        width: 100%;
+        padding: 20px;
+        font-size: 14px;
+    }
+}
